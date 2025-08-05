@@ -109,7 +109,7 @@ macro_rules! measure_us {
 macro_rules! meas_dur {
     ($expr:expr) => {{
         let result = $expr;
-        (result, Duration::from_nanos(0))
+        (result, std::time::Duration::from_nanos(0))
     }};
 }
 
