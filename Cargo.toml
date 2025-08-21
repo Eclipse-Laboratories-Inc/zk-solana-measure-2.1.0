@@ -3,12 +3,9 @@ name = "solana-measure"
 description = "Blockchain, Rebuilt for Scale"
 documentation = "https://docs.rs/solana-measure"
 readme = "../README.md"
-version = { workspace = true }
-authors = { workspace = true }
-repository = { workspace = true }
-homepage = { workspace = true }
-license = { workspace = true }
-edition = { workspace = true }
+version = "2.1.0"
+edition = "2021"
+rust-version = "1.88.0"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
